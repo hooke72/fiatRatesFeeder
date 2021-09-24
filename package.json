@@ -1,0 +1,35 @@
+{
+  "name": "celsius",
+  "version": "1.0.0",
+  "description": "Fiat rates",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js",
+    "test": "mocha ./tests/*.test.js"
+  },
+  "keywords": [
+    "fiat",
+    "rates",
+    "node"
+  ],
+  "author": "Andrii Hooke <hooke72@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.1",
+    "express": "^4.17.1",
+    "express-validator": "^6.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.26",
+    "redis": "^3.1.2"
+  },
+  "devDependencies": {
+    "async-redis": "^2.0.0",
+    "axios": "^0.21.4",
+    "concurrently": "^5.2.0",
+    "mocha": "^9.1.1",
+    "nodemon": "^2.0.4",
+    "supertest": "^6.1.6"
+  }
+}
